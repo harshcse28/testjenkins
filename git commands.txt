@@ -1,0 +1,102 @@
+330  git status
+  331  git add .
+  332  git status
+  333  git rm --cached test1file.txt
+  334  git status
+  335  git add .
+  336  git status
+  337  git rm --cached *
+  338  git status
+  339  git add *
+  340  git status
+  341  git reset HEAD *
+  342  git reset HEAD -- *
+  343  git status
+  344  git add *
+  345  git status
+  346  git reset HEAD -- *
+  347  git add *
+  348  git status
+  349  git reset HEAD -- *
+  350  git status
+  351  git add *
+  352  git rm --cached *
+  353  git status
+  354  git add *
+  355  git reset HEAD -- *
+  356  git add *
+  357  git commit -m "first commit"
+  358  git status
+  359  git status
+  360  git restore test1file.txt
+  361  git status
+  362  git add *
+  363  git status
+  364  git
+  365  git restore --staged *
+  366  git status
+  367  git add *
+  368  git status
+  369  git commit -m "second commit"
+  370  git status
+  371  git log
+  372  git checkout 9a2377b225508f5eb3edb0200b69830380f83998
+  373  git reset HEAD~
+  374  ls
+  375  cat test1file.txt
+  376  git log
+  377  git reset HEAD~
+  378  git reset HEAD~ -- *
+  379  git log
+  380  git log
+  381  git push -u origin master
+  382  git pull git@github.com:harshcse28/testjenkins.git
+  383  git log
+  384  git status
+  385  git add -A
+  386  git status
+  387  git commit -am "third commit"
+  388  git push -u origin master
+  389  git pull git@github.com:harshcse28/testjenkins.git
+  390  git .
+  391  git status
+  392  git add -A
+  393  git commit -m "4th commit after conflict"
+  394  git push -u origin master
+  395  git pull git@github.com:harshcse28/testjenkins.git
+  396  git push -u origin master
+  397  git log
+  398  git reset HEAD^2
+  399  git log
+  400  git reset HARSH
+  401  git reset HARD
+  402  git reset HARD *
+  403  git reset HEAD -- HARD *
+  404  git log
+  405  git checkout --orphan temp_branch
+  406  git add -A
+  407  git commit -am "The first commit"
+  408  git branch -D master
+  409  git branch -m master
+  410   git push -f origin master
+  411  git status
+  412  git add -A
+  413  git status
+  414  git commit -am "second commit"
+  415  git push -u origin master
+  416  git pull git@github.com:harshcse28/testjenkins.git
+  417  git pull git@github.com:harshcse28/testjenkins.git
+  418  git add -A
+  419  git commit -am "5th commit"
+  420  git push -u origin master
+  421  git pull git@github.com:harshcse28/testjenkins.git
+  422  git stash
+  423  git pull git@github.com:harshcse28/testjenkins.git
+  424  git stash apply
+  425  git add -A
+  426  git commit -am "6th commit"
+  427  git push -u origin master
+  428  gt stash drop
+  429  git stash drop
+  430  git list stash
+  
